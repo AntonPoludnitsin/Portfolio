@@ -1,0 +1,39 @@
+.footer {
+  min-height: 200px;
+  background-color: #f3ffe5;
+  padding-top: 30px;
+}
+
+.social {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.item {
+  width: 60px;
+  height: 60px;
+  background-color: #ededed;
+}
+
+.copyright{
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 626px) {
+  .social {
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .item {
+    width: 50px;
+    height: 50px;
+  }
+}

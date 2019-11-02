@@ -1,0 +1,52 @@
+.projects {
+  min-height: 500px;
+  background-color: #efd4ff;
+}
+
+.projectsList {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.project {
+  width: 500px;
+  border: 1px solid black;
+}
+
+.icon {
+  margin: 0 auto;
+
+  height: 300px;
+  background-color: #f3ffe5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: black;
+  background-color: #e5e5e5;
+}
+
+.description {
+  color: black;
+  background-color: #e5e5e5;
+  height: 50px;
+}
+
+@media screen and (max-width: 1260px) {
+  .projectsList {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .project {
+    width: 100%;
+  }
+}

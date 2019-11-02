@@ -1,0 +1,23 @@
+.contacts {
+  height: 100vh;
+  background-color: #ffbec1;
+  padding-top: 30px;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  min-height: 160px;
+}
+
+@media screen and (max-width: 626px) {
+  form {
+    width: 100%;
+  }
+}

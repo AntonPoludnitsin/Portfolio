@@ -1,0 +1,20 @@
+.title {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-size: 36px;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.line {
+  width: 55px;
+  height: 2px;
+  background-color: #ea548d;
+  margin: 30px auto;
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
